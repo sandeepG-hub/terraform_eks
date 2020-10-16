@@ -24,6 +24,6 @@ resource "aws_cloudwatch_log_group" "default" {
 
   tags = {
     Environment = var.Environment
-    Application = var.Application
+    Application = var.application
   }
 }
