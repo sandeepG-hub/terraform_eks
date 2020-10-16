@@ -21,3 +21,6 @@ variable "Environment"{
 variable "application"{
   default = "Service"
 }
+variable "name"{
+  default =" "
+}
