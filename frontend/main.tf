@@ -5,8 +5,8 @@ subnet_ids  = ["subnet-0043fb7c5bddc8705","subnet-06e0e661239ffd6fb"]
 profile     = "default"
 region      = "us-east-2"
 }
-module "master" {
-source          = "../modules/master"
+module "nodes" {
+source          = "../modules/nodes"
 clustername     = "cluster"
 region          = "us-east-2"
 node_group_name = "master"
